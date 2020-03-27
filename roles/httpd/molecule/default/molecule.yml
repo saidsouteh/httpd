@@ -3,7 +3,7 @@ dependency:
   name: galaxy
 driver:
   name: docker
-#lint: ansible-lint
+lint: ansible-lint
 platforms:
   - name: instance
     image: geerlingguy/docker-centos7-ansible
